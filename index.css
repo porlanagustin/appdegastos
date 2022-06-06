@@ -1,0 +1,19 @@
+html, body{
+    margin: 0px;
+    height: 100%;
+}
+
+
+.bg{
+    background-image: url(gastos.webp);
+    background-position: center center;
+}
+
+.bg2{
+    background-image: url(gastos2.jpg);
+    background-position: center center;
+}
+
+.none{
+    visibility: hidden;
+}

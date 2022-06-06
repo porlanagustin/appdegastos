@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Gastos</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body style="background-color: rgb(31, 82, 125, 0.7);"">
+    <header style="height: 10%" class="bg2" >
+    
+    </header>
+    <main style="height: 80%;">
+
+        <div class="container w-50 h-100 mt-5 bg-gradient rounded-5">
+            <div class="row h-75">
+                <div class="col bg rounded-5"></div>
+                <div class="col" >
+                    <div class="text-center mt-1">
+                        <img src="Logoitbank.png" alt="">
+                    </div>
+
+                    <h2 class="fw-bold text-center py-5">Dividi los Gastos</h2>
+            
+                    <form action="#" class="">
+                        <div id="form" class="mb-4 text-center">
+                            <label for="personas" class="form-label">Ingresa la cantidad de personas</label>
+                            <input type="number" class="form-control" id="enviar">
+                            <button type="submit" class="btn btn-primary mt-1" onclick="cantPersonas()">Enviar</button>
+                        </div>
+
+                        <!--<div class="d-grid">
+                            <button type="submit" class="btn btn-primary">Calcular</button>
+                        </div>-->
+                        <div id="tabla" class="none"></div>
+                        <div id="cartel" class="none"></div>
+                        
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    <footer class="bg2" style="height: 10%;">
+    
+    </footer>
+
+    <!--SCRIPT-->
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
